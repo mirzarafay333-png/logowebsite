@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOGO DESIGNING </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      scroll-behavior: smooth;
+
+      /* ✅ Background Image */
+      background-image: url('lion.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* 🔒 makes background fixed */
+      color: #e5e7eb;
+    }
+
+    .wave {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    .wave svg {
+      position: relative;
+      display: block;
+      width: calc(160% + 1.3px);
+      height: 150px;
+    }
+
+    .glass {
+      background:  rgba(0, 0, 0, 0.829);
+      backdrop-filter: blur(0px);
+      border: 1px solid rgba(255, 255, 255, 0.295);
+  
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <!-- 🔝 NAV -->
+  <header class="glass fixed top-0 w-full z-50 shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-extrabold text-yellow-400">LOGO DESIGNING WEBISTE</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#services" class="hover:text-green-400">Services</a>
+        <a href="#contact" class="hover:text-green-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🦸 HERO -->
+  <section class="min-h-screen flex items-center justify-center text-center px-6 pt-24">
+    <div>
+      <h1 class="text-5xl font-extrabold text-white" id="hero-heading">
+        Hi,I’m <span class="text-green-400">ALEX</span>
+      
+      <p class="text-lg md:text-2xl mb-8 text-blue-400">I build stunning Logos that help you to make your business help bigger.</p>
+      <a href="#contact" class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full text-lg shadow-lg transition-all">Let’s Talk</a>
+      </h1>
+    </div>
+  </section>
+
+  <!-- 🌊 Wave Transition -->
+  <div class="wave">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+      <path d="M0.00,49.98 C150.00,150.00 271.93,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" fill="rgba(31, 41, 55, 0.5)"></path>
+    </svg>
+  </div>
+
+  <!-- 🧩 SERVICES -->
+     <section id="services" class="py-20 bg-gray-900">
+  <section id="services" class="py-20 glass">
+
+    <div class="relative max-w-6xl mx-auto px-6 text-center text-white">
+      <h2 class="text-4xl font-bold text-blue-400 mb-12">SERVICES</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="glass p-6 rounded-lg"data-aos="fade-down" data-aos-delay="100">
+            <h2>SERVICES</h2>
+          <h3 class="text-xl font-semibold mb-3">LOGO MAKING</h3>
+          <p class="text-blue-400">Custom LOGOS FOR YOU.</p>
+        </div>
+        <div class="glass p-6 rounded-lg"data-aos="fade-left" data-aos-delay="100">
+          <h3 class="text-xl font-semibold mb-3">VIDEO EDITING</h3>
+          <p class="text-blue-400">Make your videos look professional and great effect.</p>
+        </div>
+        <div class="glass p-6 rounded-lg"data-aos="fade-right" data-aos-delay="100">
+          <h3 class="text-xl font-semibold mb-3">Performance Optimization</h3>
+          <p class="text-blue-400">Fast, SEO-friendly websites that rank high.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💼 PORTFOLIO -->
+  <section id="MY WORK" class="py-20 bg-gray-800">
+    <section id="MY WORK" class="py-20 glass">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold text-red-400 mb-12">MY WORK</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="glass rounded-lg overflow-hidden"data-aos="zoom-in" data-aos-delay="100">
+          <img src="tiger.jpeg" class="w-full">
+          <div class="p-4">
+            <h4 class="font-semibold mb-1 text-white">LOGO FOR WEBISTE</h4>
+            <p class="text-blue-400">Smooth  and clean.</p>
+          </div>
+        </div>
+        <div class="glass rounded-lg overflow-hidden"data-aos="zoom-out" data-aos-delay="100">
+          <img src="coffee.jpeg" class="w-full">
+          <div class="p-4">
+            <h4 class="font-semibold mb-1 text-white">LOGO FOR SHOP</h4>
+            <p class="text-blue-400">Elegant design To Make Logo Standout.</p>
+          </div>
+        </div>
+        <div class="glass rounded-lg overflow-hidden"data-aos="fade-left" data-aos-delay="100">
+          <img src="coursera.jpeg" class="w-full">
+          <div class="p-4">
+            <h4 class="font-semibold mb-1 text-white">SEO FOR WEBSITE</h4>
+            <p class="text-blue-400">High-And Better Seo optimiztion for Website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- 📬 CONTACT -->
+  <section id="Contact Me" class="py-20 bg-gray-800">
+<section id="contact Me" class="py-20 glass">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-blue-400 mb-12">Contact Me</h2>
+      <form class="space-y-6 glass p-8 rounded-lg"data-aos="flip-left" data-aos-delay="100">
+        <input type="text" placeholder="Name" class="w-full px-4 py-3 rounded bg-gray-700 text-white border border-gray-600 focus:ring-green-400 focus:outline-none" />
+        <input type="email" placeholder="Email" class="w-full px-4 py-3 rounded bg-gray-700 text-white border border-gray-600 focus:ring-green-400 focus:outline-none" />
+        <textarea rows="5" placeholder="Your message..." class="w-full px-4 py-3 rounded bg-gray-700 text-white border border-gray-600 focus:ring-green-400 focus:outline-none"></textarea>
+        <button type="submit" class="w-full bg-red-500 hover:bg-green-600 text-white font-semibold py-3 rounded shadow-lg">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 🔚 FOOTER -->
+  <footer class="bg-gray-900 text-center py-6">
+    <p class="text-gray-500">© 2025 ABDUL RAFAY All rights reserved.</p>
+    <div class="mt-3 flex justify-center gap-4 text-gray-400">
+    </div>
+  </footer>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+      duration: 1000,
+      once: false,          // Animate again on scroll up
+      mirror: true          // 👈 REQUIRED for animating on scroll up
+    });
+  });
+  </script>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    gsap.from("#hero-heading", {
+      duration: 1.5,
+      y: -100,
+      opacity: 0,
+      ease: "power3.out"
+    });
+  });
+</script>
+<span id="flying-words" class="block text-xl text-yellow-300 mt-4"></span>
+
+<script>
+
+</script>
+
+
+
+</body>
+</html>
